@@ -12,6 +12,9 @@
 		EF9AB82623428C8300211E21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF9AB82423428C8300211E21 /* Main.storyboard */; };
 		EF9AB82823428C8400211E21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF9AB82723428C8400211E21 /* Assets.xcassets */; };
 		EF9AB82B23428C8400211E21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF9AB82923428C8400211E21 /* LaunchScreen.storyboard */; };
+		EF9AB83923428E8400211E21 /* AlbumsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9AB83823428E8400211E21 /* AlbumsTableViewController.swift */; };
+		EF9AB83B234290C700211E21 /* AlbumDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9AB83A234290C700211E21 /* AlbumDetailTableViewController.swift */; };
+		EF9AB83D234295DC00211E21 /* SongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9AB83C234295DC00211E21 /* SongTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		EF9AB82723428C8400211E21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF9AB82A23428C8400211E21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF9AB82C23428C8400211E21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF9AB83823428E8400211E21 /* AlbumsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsTableViewController.swift; sourceTree = "<group>"; };
+		EF9AB83A234290C700211E21 /* AlbumDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailTableViewController.swift; sourceTree = "<group>"; };
+		EF9AB83C234295DC00211E21 /* SongTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,7 @@
 		EF9AB83523428D3F00211E21 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				EF9AB83C234295DC00211E21 /* SongTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -101,6 +108,8 @@
 		EF9AB83623428D4500211E21 /* Model Controller */ = {
 			isa = PBXGroup;
 			children = (
+				EF9AB83823428E8400211E21 /* AlbumsTableViewController.swift */,
+				EF9AB83A234290C700211E21 /* AlbumDetailTableViewController.swift */,
 			);
 			path = "Model Controller";
 			sourceTree = "<group>";
@@ -184,6 +193,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF9AB81F23428C8300211E21 /* AppDelegate.swift in Sources */,
+				EF9AB83923428E8400211E21 /* AlbumsTableViewController.swift in Sources */,
+				EF9AB83D234295DC00211E21 /* SongTableViewCell.swift in Sources */,
+				EF9AB83B234290C700211E21 /* AlbumDetailTableViewController.swift in Sources */,
 				EF9AB82123428C8300211E21 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
